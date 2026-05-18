@@ -3,18 +3,19 @@
 function init_data()
     ENV["DATADEPS_ALWAYS_ACCEPT"] = true  # bypass prompts
 
-    register(DataDep(
+    register(ManualDataDep(
         "dlkitty_reaction_rates",
         """
         First basic set of data, Data originally from SABIO
         prepared by Michael and Augustinas.
         """,
-        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/initial_dataset.tsv"
+        # Hash:
+        #"14f0c966b51603e15c9e0fce5e378ae0cbb8595c6e4ebd5caf9221d01e467f06"
     )),
-    "14f0c966b51603e15c9e0fce5e378ae0cbb8595c6e4ebd5caf9221d01e467f06"
+    
 
 
-    register(DataDep(
+    register(ManualDataDep(
         "Sabio-RK_kcats_full_nov_2024",
         """
         Kcat data from Sabio
@@ -22,11 +23,10 @@ function init_data()
         crossreferenced with SMILES from pubchem.
         Some data missing
         """,
-        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/Sabio-RK_kcats_full_nov_2024.json",
-        "d513e29d9c21ce636b45a17860817a0575e9a18c50cee29903b63dec67c46c47"
+        #"d513e29d9c21ce636b45a17860817a0575e9a18c50cee29903b63dec67c46c47"
     ))
 
-    register(DataDep(
+    register(ManualDataDep(
         "kcats_complete_may_2025",
         """
         Kcat data from Sabio + Brenda
@@ -34,8 +34,7 @@ function init_data()
         crossreferenced with SMILES from pubchem.
         Some data incomplete rows
         """,
-        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/kcats_complete_may_2025.json",
-        "d85329c991fd0a317b6e3e45091d71ca8b8c087a89aaa71f06f15bad62bed8e3"
+        #"d85329c991fd0a317b6e3e45091d71ca8b8c087a89aaa71f06f15bad62bed8e3"
     ))
 
 
