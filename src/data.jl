@@ -9,7 +9,7 @@ function init_data()
         First basic set of data, Data originally from SABIO
         prepared by Michael and Augustinas.
         """,
-        "https://dlkitty.file.core.windows.net/dlkitty/initial_dataset.tsv?sp=r&st=2024-10-22T10:35:35Z&se=2052-10-22T10:27:00Z&sv=2022-11-02&sig=o8AMnCfjwxRtGEGaditHwGj25Qg%2FBKZx3N5eYyxcu%2Bo%3D&sr=f"
+        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/initial_dataset.tsv"
     )),
     "14f0c966b51603e15c9e0fce5e378ae0cbb8595c6e4ebd5caf9221d01e467f06"
 
@@ -22,7 +22,7 @@ function init_data()
         crossreferenced with SMILES from pubchem.
         Some data missing
         """,
-        "https://dlkitty.file.core.windows.net/dlkitty/Sabio-RK_kcats_full_nov_2024.json?sp=r&st=2024-12-03T07:17:45Z&se=2165-12-04T07:09:00Z&spr=https&sv=2022-11-02&sig=R2BV4ogxEZE6I3uDkRwlIVKZt%2BtdPnIdZaHnG7M%2FCAc%3D&sr=f",
+        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/Sabio-RK_kcats_full_nov_2024.json",
         "d513e29d9c21ce636b45a17860817a0575e9a18c50cee29903b63dec67c46c47"
     ))
 
@@ -34,7 +34,7 @@ function init_data()
         crossreferenced with SMILES from pubchem.
         Some data incomplete rows
         """,
-        "https://dlkitty.blob.core.windows.net/dlkitty/kcats_complete_may_2025.json",
+        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/kcats_complete_may_2025.json",
         "d85329c991fd0a317b6e3e45091d71ca8b8c087a89aaa71f06f15bad62bed8e3"
     ))
 
