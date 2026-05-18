@@ -1,4 +1,5 @@
 module DLkitty
+using AWSS3
 using DataDeps
 using CSV
 using DataFrames

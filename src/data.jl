@@ -9,9 +9,10 @@ function init_data()
         First basic set of data, Data originally from SABIO
         prepared by Michael and Augustinas.
         """,
-        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/initial_dataset.tsv"
+        S3Path("s3://dlkitty-migrated-from-azure/initial_dataset.tsv"),
+        "14f0c966b51603e15c9e0fce5e378ae0cbb8595c6e4ebd5caf9221d01e467f06"
     )),
-    "14f0c966b51603e15c9e0fce5e378ae0cbb8595c6e4ebd5caf9221d01e467f06"
+    
 
 
     register(DataDep(
@@ -22,7 +23,7 @@ function init_data()
         crossreferenced with SMILES from pubchem.
         Some data missing
         """,
-        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/Sabio-RK_kcats_full_nov_2024.json",
+        S3Path("s3://dlkitty-migrated-from-azure/Sabio-RK_kcats_full_nov_2024.json"),
         "d513e29d9c21ce636b45a17860817a0575e9a18c50cee29903b63dec67c46c47"
     ))
 
@@ -34,7 +35,7 @@ function init_data()
         crossreferenced with SMILES from pubchem.
         Some data incomplete rows
         """,
-        "https://dlkitty-migrated-from-azure.s3.ap-southeast-4.amazonaws.com/kcats_complete_may_2025.json",
+        S3Path("s3://dlkitty-migrated-from-azure/kcats_complete_may_2025.json"),
         "d85329c991fd0a317b6e3e45091d71ca8b8c087a89aaa71f06f15bad62bed8e3"
     ))
 

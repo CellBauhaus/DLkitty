@@ -17,6 +17,18 @@
 
 ## Training and Use
 
+### Downloading data
+The first time you access any data from this repo it will be downloaded from S3.
+Right now to access this you need access to the CellBauhaus AWS staging account.
+We might change this in future.
+Normal way to do this is to set up the staging account in `~/.aws/config`.
+Then do `aws sso login --profile=staging` on the command-line.
+Then do `export AWS_PROFILE=staging` before starting julia.
+
+You will only need to do this the first time.
+After than a local copy will be created and reused.
+
+
 ### Training
 ```julia
 using DLkitty
