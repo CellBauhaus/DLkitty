@@ -1,0 +1,4 @@
+deps/data/ filter=lfs diff=lfs merge=lfs -text
+deps/data/dlkitty_reaction_rates filter=lfs diff=lfs merge=lfs -text
+deps/data/kcats_complete_may_2025 filter=lfs diff=lfs merge=lfs -text
+deps/data/Sabio-RK_kcats_full_nov_2024 filter=lfs diff=lfs merge=lfs -text
