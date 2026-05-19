@@ -24,6 +24,7 @@ We might change this in future.
 Normal way to do this is to set up the staging account in `~/.aws/config`.
 Then do `aws sso login --profile=staging` on the command-line.
 Then do `export AWS_PROFILE=staging` before starting julia.
+See the [AWS connection instructions on Notion.](https://www.notion.so/cellbauhaus/Connecting-to-AWS-with-out-VPN-25aa1cdfa3fd80e28410f390cd90c56b)
 
 You will only need to do this the first time.
 After than a local copy will be created and reused.
